@@ -64,19 +64,5 @@ export default [
       { title: "HomePod" },
       { title: "iPod Touch" }
     ]
-  },
-  {
-    id: 7,
-    title: "Support",
-    sub: [
-      { title: "iPhone" },
-      { title: "Mac" },
-      { title: "iPad" },
-      { title: "Apple Watch" },
-      { title: "Music" },
-      { title: "TV" },
-      { title: "AirPods" },
-      { title: "iCloud" }
-    ]
   }
 ];

@@ -24,16 +24,15 @@ const Category = props => {
           </NavLink>
         ))}
       </div>
-      <Route
-        path="/:catSlug/:subcatSlug"
-        render={renderProps => (
-          <SubCategory
-            {...renderProps}
-            data={activeCategory.sub}
-            slugify={props.slugify}
-          />
-        )}
-      />
+      <section className="content">
+        <h2>Main Category: {activeCategory.title}</h2>
+        <p>
+          This is the landing page for main categories. When a main category is
+          selected but not a sub category, this page renders. A specific page
+          for each main category can be shown here based on the data coming from
+          API or using match.params.catSlug with a switch/case statement.
+        </p>
+      </section>
     </>
   );
 };
