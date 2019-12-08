@@ -1,7 +1,5 @@
 import React from "react";
-import { Route, NavLink } from "react-router-dom";
-
-import SubCategory from "./SubCategory";
+import { NavLink } from "react-router-dom";
 
 const Category = props => {
   console.log("Category", props);

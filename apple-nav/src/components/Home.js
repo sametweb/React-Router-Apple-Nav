@@ -14,7 +14,7 @@ const Home = props => {
     <>
       <nav className="main-navigator">
         <NavLink to="/">
-          <img src={logo} style={{ width: 25, height: 25 }} />
+          <img src={logo} style={{ width: 25, height: 25 }} alt="logo" />
         </NavLink>
         {props.data.map((link, index) => (
           <NavLink key={index} to={`/${props.slugify(link.title)}`}>
